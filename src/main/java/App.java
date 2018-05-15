@@ -1,5 +1,8 @@
+import java.util.Random;
+
 public class App{
 	public static void main(String[] args){
-		System.out.println ("My Hangman Works!");
+		Hangman play = new Hangman();
+		play.playGame();
 	}
 }
